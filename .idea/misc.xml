@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/simbot-boot-example/simbot-boot-normal-kotlin" />
+    <file type="web" url="file://$PROJECT_DIR$/simbot-boot-example/simbot-boot-requests-kotlin" />
+    <file type="web" url="file://$PROJECT_DIR$/simbot-spring-boot-starter-example/spring-boot-webflux-kotlin" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/simbot-boot-example/simbot-boot-normal-java/pom.xml" />
+        <option value="$PROJECT_DIR$/simbot-core-example/simbot-core-normal-java/pom.xml" />
+        <option value="$PROJECT_DIR$/simbot-spring-boot-starter-example/spring-boot-web-java/pom.xml" />
+        <option value="$PROJECT_DIR$/simbot-spring-boot-starter-example/spring-boot-webflux-java/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
+</project>

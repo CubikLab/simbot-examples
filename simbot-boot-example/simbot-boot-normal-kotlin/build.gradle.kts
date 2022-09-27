@@ -24,10 +24,20 @@ repositories {
     mavenCentral()
 }
 
-val simbotVersion = "3.0.0.preview.8.0"
-val simbotMiraiVersion = "3.0.0.0.preview.2.0"
+val ktorVersion = "1.6.7"
+val simbotVersion = "3.0.0-beta"
+val simbotMiraiVersion = "3.0.0.0-beta-M2"
 
 dependencies {
+    // Ktor Dependencies
+    implementation("io.ktor:ktor-server-core:$ktorVersion")
+    implementation("io.ktor:ktor-server-cio:$ktorVersion")
+    implementation("io.ktor:ktor-html-builder:$ktorVersion")
+    implementation("io.ktor:ktor-serialization:$ktorVersion")
+    implementation("io.ktor:ktor-gson:$ktorVersion")
+    implementation("io.ktor:ktor-client-core:$ktorVersion")
+    implementation("io.ktor:ktor-client-cio:$ktorVersion")
+    // Simbot Dependencies
     implementation("love.forte.simbot.boot:simboot-core:$simbotVersion")
     implementation("love.forte.simbot.component:simbot-component-mirai-boot:$simbotMiraiVersion")
 }

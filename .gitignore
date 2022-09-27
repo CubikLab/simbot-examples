@@ -1,3 +1,5 @@
+test-bot*
+cache
 *.class
 *.iml
 #**/iml
